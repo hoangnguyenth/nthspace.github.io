@@ -1,0 +1,46 @@
+body {
+	font-family: Arial, sans-serif;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	background-color: #1a2b3c;
+	color: #ffffff;
+}
+h1 {
+	font-size: 2.5em;
+	margin-bottom: 5px;
+	color: #ffffff;
+}
+.subtitle {	
+	color: #b0b0b0;
+	margin-bottom: 20px;
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 15px;
+}
+.item {
+	border: 3px solid;
+	border-radius: 10px;
+	padding: 20px 10px;
+	font-size: 1.4em;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	font-weight: bold;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.item:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.darkweb {
+	border-color: #ff4136;
+	color: #ff4136;
+}
+.myfans {
+	border-color: #00bfff;
+	color: #00bfff;
+}

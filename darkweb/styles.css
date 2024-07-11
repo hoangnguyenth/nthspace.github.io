@@ -1,0 +1,62 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	overflow: hidden;
+}
+
+#canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.title {
+	font-family: 'Times New Roman', Times, serif;
+	color: #000000;
+	font-size: 4em;
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	opacity: 0;
+}
+
+.returnButton {
+	position: absolute;
+	border: 3px solid #000000;
+	border-radius: 3px;
+	font-size: 0.8em;
+	padding: 10px 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	font-weight: bold;
+	background-color: transparent;
+	top: 10px;
+	left: 10px;
+	color: #000000;
+	z-index: 2;
+	opacity: 0;
+}
+
+.returnButton:hover {
+	background-color: rgba(216, 188, 132, 0.2);
+}
+
+.subtitle {
+	font-family: 'Times New Roman', Times, serif;
+	color: #000000;
+	font-size: 2em;
+	position: absolute;
+	top: 300px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	opacity: 0;
+}
